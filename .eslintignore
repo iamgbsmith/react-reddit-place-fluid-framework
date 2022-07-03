@@ -1,0 +1,3 @@
+# Avoid linting the following directories and files
+node_modules
+dist
