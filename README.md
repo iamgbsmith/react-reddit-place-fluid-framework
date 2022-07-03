@@ -19,8 +19,9 @@ A basic implementation of Reddit Place using React and Fluid Framework.
 - [ ] Fluid Framework state persisted across server restarts
 - [ ] Progressive Web App
 - [ ] Pixel resizing at runtime
+- [ ] Save the grid tiles as an image
 
-## Getting Started
+## Getting started
 
 Clone the repo:
 
@@ -57,6 +58,6 @@ Default size for the grid is 20 x 20 tiles. You can change the grid dimensions b
 
 Default tile size is 20px. You can change the tile size by updating the value for TILE_SIZE in `/src/constants.ts`. 
 
-### Tinylicious Server
+### Tinylicious server
 
 This app uses Tinylicious which is a local, in-memory Fluid service intended for prototyping and development purposes. By default, Tinylicious runs on port 7070.
